@@ -1,0 +1,9 @@
+// Pure catalogue and cart logic shared with the automated tests.
+export const scentFamilies={'Floral':/rose|jasmine|peony|floral|lavender/i,'Fresh':/citrus|ocean|mint|ginger|lemon|aquatic/i,'Woods & amber':/wood|oud|amber|musk|patchouli/i,'Warm & sweet':/vanilla|cinnamon|spice|clove|coco/i};
+export function normalizeGuest(items){if(!Array.isArray(items))return [];const map=new Map();for(const x of items){if(x&&Number.isInteger(x.id)&&x.id>0&&Number.isInteger(x.quantity)&&x.quantity>0)map.set(x.id,Math.min(99,x.quantity))}return [...map].slice(0,100).map(([id,quantity])=>({id,quantity}))}
+export function guestLines(items,products){return normalizeGuest(items).flatMap(g=>{const p=products.find(x=>x.id===g.id);const quantity=p?Math.min(g.quantity,p.stock):0;return quantity>0?[{...p,quantity}]:[]})}
+export function changeGuest(items,p,quantity){return normalizeGuest([...items.filter(g=>g.id!==p.id),{id:p.id,quantity:Math.max(0,Math.min(99,p.stock,quantity))}])}
+export function inBudget(p,range){return range==='Under $150'?p.price<150:range==='$150–$220'?p.price>=150&&p.price<=220:range==='Above $220'?p.price>220:true}
+export function recommend(products,answers){const [family,occasion,budget]=answers;const score=p=>(scentFamilies[family]?.test(p.name+' '+p.description)?5:0)+(occasion==='Everyday'&&p.category!=='Eau de Parfum'?2:occasion!=='Everyday'&&p.category==='Eau de Parfum'?2:0);return products.filter(p=>p.stock>0&&inBudget(p,budget)).sort((a,b)=>score(b)-score(a)||a.price-b.price).slice(0,4)}
+export const csvCell=v=>'"'+String(v??'').replace(/^(\s*[=+\-@]|[\t\r\n])/,"'$&").replaceAll('"','""')+'"';
+export function ordersCsv(orders){return [['Order','Date','Status','Total USD','Units'],...orders.map(o=>[o.id,o.created,o.status,o.total,o.items.reduce((s,i)=>s+Number(i.quantity),0)])].map(r=>r.map(csvCell).join(',')).join('\r\n')}

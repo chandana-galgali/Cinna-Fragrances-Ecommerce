@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "name": "Cinna Noir",
+    "category": "Eau de Parfum",
+    "description": "A bold and long-lasting fragrance with rich undertones of blackcurrant and musk.",
+    "price": 250,
+    "stock": 15,
+    "image": "cinna_noir.webp",
+    "active": true
+  },
+  {
+    "id": 2,
+    "name": "Floral Essence",
+    "category": "Eau de Toilette",
+    "description": "A refreshing floral scent with notes of jasmine and rose.",
+    "price": 150,
+    "stock": 25,
+    "image": "floral_essence.webp",
+    "active": true
+  },
+  {
+    "id": 3,
+    "name": "Citrus Zest",
+    "category": "Eau de Cologne",
+    "description": "An energizing blend of citrus and herbal notes.",
+    "price": 130,
+    "stock": 30,
+    "image": "citrus_zest.webp",
+    "active": true
+  },
+  {
+    "id": 4,
+    "name": "Ocean Breeze",
+    "category": "Eau de Parfum",
+    "description": "A revitalizing aquatic fragrance with sea salt and lemon undertones.",
+    "price": 230,
+    "stock": 20,
+    "image": "ocean_breeze.webp",
+    "active": true
+  },
+  {
+    "id": 5,
+    "name": "Vanilla Dream",
+    "category": "Eau de Parfum",
+    "description": "Warm and inviting vanilla scent, perfect for cozy evenings.",
+    "price": 200,
+    "stock": 18,
+    "image": "vanilla_dream.webp",
+    "active": true
+  },
+  {
+    "id": 6,
+    "name": "Spice Mystique",
+    "category": "Eau de Toilette",
+    "description": "A rich, spicy fragrance with hints of cinnamon and cloves.",
+    "price": 160,
+    "stock": 10,
+    "image": "spice_mystique.webp",
+    "active": true
+  },
+  {
+    "id": 7,
+    "name": "Amber Nights",
+    "category": "Eau de Parfum",
+    "description": "An intense amber fragrance with hints of sandalwood and patchouli.",
+    "price": 280,
+    "stock": 12,
+    "image": "amber_nights.webp",
+    "active": true
+  },
+  {
+    "id": 8,
+    "name": "Rose Delight",
+    "category": "Eau de Toilette",
+    "description": "A soft and romantic rose fragrance with a hint of fresh greenery.",
+    "price": 145,
+    "stock": 22,
+    "image": "rose_delight.webp",
+    "active": true
+  },
+  {
+    "id": 9,
+    "name": "Cedar Wood",
+    "category": "Eau de Cologne",
+    "description": "A woody scent with a blend of cedar and fresh pine notes.",
+    "price": 170,
+    "stock": 15,
+    "image": "cedar_wood.webp",
+    "active": true
+  },
+  {
+    "id": 10,
+    "name": "Lavender Calm",
+    "category": "Eau de Parfum",
+    "description": "A calming lavender fragrance, perfect for relaxation.",
+    "price": 200,
+    "stock": 18,
+    "image": "lavender_calm.webp",
+    "active": true
+  },
+  {
+    "id": 11,
+    "name": "Exotic Oud",
+    "category": "Eau de Parfum",
+    "description": "A luxurious oud fragrance with smoky and earthy undertones.",
+    "price": 300,
+    "stock": 7,
+    "image": "exotic_oud.webp",
+    "active": true
+  },
+  {
+    "id": 12,
+    "name": "Jasmine Bloom",
+    "category": "Eau de Toilette",
+    "description": "A refreshing jasmine fragrance for daily wear.",
+    "price": 150,
+    "stock": 28,
+    "image": "jasmine_bloom.webp",
+    "active": true
+  },
+  {
+    "id": 13,
+    "name": "Musk Classic",
+    "category": "Eau de Cologne",
+    "description": "A timeless musk fragrance, subtle yet enticing.",
+    "price": 180,
+    "stock": 17,
+    "image": "musk_classic.webp",
+    "active": true
+  },
+  {
+    "id": 14,
+    "name": "Patchouli Spice",
+    "category": "Eau de Parfum",
+    "description": "An exotic patchouli fragrance with warm spice notes.",
+    "price": 250,
+    "stock": 13,
+    "image": "patchouli_spice.webp",
+    "active": true
+  },
+  {
+    "id": 15,
+    "name": "Peony Blush",
+    "category": "Eau de Toilette",
+    "description": "A floral fragrance with hints of peony and soft fruit notes.",
+    "price": 160,
+    "stock": 26,
+    "image": "peony_blush.webp",
+    "active": true
+  },
+  {
+    "id": 16,
+    "name": "Sandalwood Silk",
+    "category": "Eau de Parfum",
+    "description": "A smooth sandalwood scent with silky undertones.",
+    "price": 270,
+    "stock": 11,
+    "image": "sandalwood_silk.webp",
+    "active": true
+  },
+  {
+    "id": 17,
+    "name": "Coco Vanilla",
+    "category": "Eau de Parfum",
+    "description": "A tropical blend of coconut and vanilla, ideal for warm weather.",
+    "price": 190,
+    "stock": 20,
+    "image": "coco_vanilla.webp",
+    "active": true
+  },
+  {
+    "id": 18,
+    "name": "Mint Fresh",
+    "category": "Eau de Cologne",
+    "description": "A fresh minty fragrance with a twist of eucalyptus.",
+    "price": 140,
+    "stock": 18,
+    "image": "mint_fresh.webp",
+    "active": true
+  },
+  {
+    "id": 19,
+    "name": "Oriental Spice",
+    "category": "Eau de Parfum",
+    "description": "A rich oriental fragrance with exotic spices.",
+    "price": 260,
+    "stock": 9,
+    "image": "oriental_spice.webp",
+    "active": true
+  },
+  {
+    "id": 20,
+    "name": "Ginger Lemon",
+    "category": "Eau de Toilette",
+    "description": "A zesty blend of ginger and lemon for a fresh start.",
+    "price": 130,
+    "stock": 24,
+    "image": "ginger_lemon.webp",
+    "active": true
+  }
+]
