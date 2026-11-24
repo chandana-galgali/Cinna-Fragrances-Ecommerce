@@ -2,6 +2,11 @@
 
 A premium fragrance boutique and full-stack e-commerce portfolio application, rebuilt from a PHP/MySQL database project using the PERN stack.
 
+## Live Demo
+
+![Preview](docs/screenshots/preview.png)
+[Explore Cinna Fragrances ->](https://cinna-fragrances.onrender.com)
+
 ## Website preview
 
 ### Homepage
